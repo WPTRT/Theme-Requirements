@@ -2,7 +2,7 @@
 The following changelog lists only MAJOR changes. 
 There are often smaller changes regarding spelling, grammar, and language that are not considered major.
 
-## September 3 2019
+## 3 September 2019
 Keybord navigation was added as a requirement
 
 ## 9 July 2019
