@@ -5,10 +5,16 @@ https://make.wordpress.org/themes/handbook/review/required/
 
 In this repo you can open issues for:
 
+
 Typos
+
 Rewording requirements that are difficult to understand
+
 Adding new examples to existing requirements
+
 Report duplicate requirements
+
 Adding new requirements
+
 Removal of requirements
 
