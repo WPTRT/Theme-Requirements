@@ -4,6 +4,8 @@ A repo where everyone can contribute to keeping the theme requirements relevant 
 https://make.wordpress.org/themes/handbook/review/required/
 
 
+## About
+
 In this repo you can open issues for:
 
 Typos
@@ -42,9 +44,51 @@ Removal of requirements
 
 ### 3. Code
 
+[Use a unique prefix](https://github.com/WPTRT/Theme-Requirements/blob/master/Code/UseUniquePrefix.md)
+
+[There must be no PHP notices, warnings or errors](https://github.com/WPTRT/Theme-Requirements/blob/master/Code/NoPHPNotices.md)
+
+[There must be no JavsScript errots](https://github.com/WPTRT/Theme-Requirements/blob/master/Code/NoJSErrors.md)
+
+[Sanitize untrusted data](https://github.com/WPTRT/Theme-Requirements/blob/master/Code/SanitizeUntrustedData.md)
+
+[Escape untrusted data](https://github.com/WPTRT/Theme-Requirements/blob/master/Code/EscapeUntrustedData.md)
+
+[Do not remove non-presentational hooks](https://github.com/WPTRT/Theme-Requirements/blob/master/Code/DoNotRemoveNon-presentationalHooks)
+
 #### Core Functionality and Features
 
+[Backwards compatibility](https://github.com/WPTRT/Theme-Requirements/blob/master/CoreFunctionality/BackwardsCompatibility.md)
+
+[Do not block the adminbar](https://github.com/WPTRT/Theme-Requirements/blob/master/CoreFunctionality/DoNotBlockAdminbar.md)
+
+[Do not hardcode content](https://github.com/WPTRT/Theme-Requirements/blob/master/CoreFunctionality/DoNotHardCode.md)
+
+[Do not modify the activation UX](https://github.com/WPTRT/Theme-Requirements/blob/master/CoreFunctionality/DoNotModifyActivationUX.md)
+
+[Do not use features only meant for Core ](https://github.com/WPTRT/Theme-Requirements/blob/master/CoreFunctionality/DoNotUseFeaturesMeantForCoreOnly.md)
+
+[Do not hide WordPress features behind a paywall](https://github.com/WPTRT/Theme-Requirements/blob/master/CoreFunctionality/DoNotUsePaywalls.md)
+
+[Include comments.php](https://github.com/WPTRT/Theme-Requirements/blob/master/CoreFunctionality/IncludeCommentsPHP.md)
+
+[Use template tags and hooks correctly](https://github.com/WPTRT/Theme-Requirements/blob/master/CoreFunctionality/TemplateTagsAndHooks.md)
+
+[Theme tags must match theme functionality](https://github.com/WPTRT/Theme-Requirements/blob/master/CoreFunctionality/ThemeTagsMustMatchFunctionality.md)
+
+[Use the core style for admin notices](https://github.com/WPTRT/Theme-Requirements/blob/master/CoreFunctionality/UseCoreAdminNotice.md)
+
+[Use WordPress functionality if available](https://github.com/WPTRT/Theme-Requirements/blob/master/CoreFunctionality/UseWordPressFunctionality.md)
+
 #### Presentation vs Functionality
+
+[]()
+
+[]()
+
+[]()
+
+[]()
 
 #### Child themes
 
