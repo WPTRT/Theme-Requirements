@@ -9,6 +9,7 @@ sidebar.php (via get_sidebar())
 searchform.php (via get_search_form())
 
 
+
 If you use the relevant templates, your theme should include:
 
 wp_head() – (immediately before </head>)
