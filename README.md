@@ -183,7 +183,7 @@ Removal of requirements
 
 ### 8. Importing or Downloading
 
-[Do not bundle demo conten](https://github.com/WPTRT/Theme-Requirements/blob/master/ImportingAndDownloading/DoNotBundleDemoContent.md)
+[Do not bundle demo content](https://github.com/WPTRT/Theme-Requirements/blob/master/ImportingAndDownloading/DoNotBundleDemoContent.md)
 
 [Themes must not import content](https://github.com/WPTRT/Theme-Requirements/blob/master/ImportingAndDownloading/DoNotImport.md)
 
