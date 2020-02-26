@@ -23,5 +23,9 @@
   },
   "dependencies": {
     "markdown-it-emoji": "1.4.0"
+  },
+  "scripts": {
+    "serve": "node node_modules/docpress/bin/docpress s",
+    "build": "node node_modules/docpress/bin/docpress b"
   }
 }
