@@ -33,7 +33,13 @@ npm install
 After installation is complete you can run the local instance of docs by running:
 
 ```bash
-docpress s
+npm run serve
 ```
 
 Your documentation should be available on `http://localhost:3000`.
+
+You can build the docs with
+
+```bash
+npm run build
+```
