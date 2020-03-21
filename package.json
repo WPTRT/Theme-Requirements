@@ -1,0 +1,31 @@
+{
+  "name": "theme-requirements",
+  "version": "1.0.0",
+  "description": "A repo where everyone can contribute to keeping the theme requirements relevant and easy to understand and follow.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WPTRT/Theme-Requirements.git"
+  },
+  "keywords": [
+    "requirements",
+    "wptrt",
+    "themes",
+    "WordPress"
+  ],
+  "author": "WPTRT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WPTRT/Theme-Requirements/issues"
+  },
+  "homepage": "https://github.com/WPTRT/Theme-Requirements#readme",
+  "devDependencies": {
+    "docpress": "0.8.1"
+  },
+  "dependencies": {
+    "markdown-it-emoji": "1.4.0"
+  },
+  "scripts": {
+    "serve": "node node_modules/docpress/bin/docpress s",
+    "build": "node node_modules/docpress/bin/docpress b"
+  }
+}
