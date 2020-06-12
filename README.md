@@ -48,7 +48,7 @@ Removal of requirements
 
 [There must be no PHP notices, warnings or errors](https://github.com/WPTRT/Theme-Requirements/blob/master/Code/NoPHPNotices.md)
 
-[There must be no JavsScript errots](https://github.com/WPTRT/Theme-Requirements/blob/master/Code/NoJSErrors.md)
+[There must be no JavsScript errors](https://github.com/WPTRT/Theme-Requirements/blob/master/Code/NoJSErrors.md)
 
 [Sanitize untrusted data](https://github.com/WPTRT/Theme-Requirements/blob/master/Code/SanitizeUntrustedData.md)
 
