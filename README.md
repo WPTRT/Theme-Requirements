@@ -1,3 +1,17 @@
+:warning: 
+# The content in this repository is not up to date!
+
+Background information:
+https://make.wordpress.org/themes/2021/02/24/meeting-notes-matt-josepha-and-theme-review-team/
+https://make.wordpress.org/themes/2021/03/17/next-steps-on-themes-and-reviews/
+
+
+You can follow the <b>current work</b> of updating the theme requirements here:
+https://github.com/WPTT/Theme-Requirements/issues/10
+https://github.com/WPTT/Theme-Requirements/issues/11
+
+----
+
 # Theme Requirements
 A repo where everyone can contribute to keeping the theme requirements relevant and easy to understand and follow.
 
