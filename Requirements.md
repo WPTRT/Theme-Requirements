@@ -166,6 +166,7 @@ The following headers are required:
 Theme URI is optional. If used, it must be about the theme we’re hosting on WordPress.org.
 Using WordPress.org in the Theme URI is reserved for the default themes (Twenty X). 
 Author URI is optional. If used, it must be a page or website about the author, author theme shop, or author project/development website.
+Theme URI and Author URI must not be the same.
 
 For a list of available tags see: [Theme Tag List](https://make.wordpress.org/themes/handbook/review/required/theme-tags/).
 
