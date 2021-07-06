@@ -199,9 +199,12 @@ Screenshot
 
 Have a valid DOCTYPE declaration and include language_attributes().
 
-Include the title tag theme support [add_theme_support( 'title-tag' );](https://developer.wordpress.org/reference/functions/add_theme_support/#title-tag).
-
-Include [wp_body_open()](https://developer.wordpress.org/reference/functions/wp_body_open/).
+Include:
+- wp_head() – (immediately before ´</head>´ )
+- body_class() – (inside the body tag)
+- wp_footer() – (immediately before ´</body>´).
+- [wp_body_open()](https://developer.wordpress.org/reference/functions/wp_body_open/). – (immediately after ´<body>´ ).
+- the title tag theme support [add_theme_support( 'title-tag' );](https://developer.wordpress.org/reference/functions/add_theme_support/#title-tag).
 
 Call custom template files using get_template_part() or locate_template().
 
@@ -228,13 +231,17 @@ Block templates must be complete.
 
 Only submit one new theme at the time. You can submit unlimited updates for your existing themes that are in the theme directory.
 
-A theme must be complete at the time of submission. Names cannot be “reserved” for future use or to protect brands.
-Licensing of themes distributed outside the theme directory
+Theme names cannot be “reserved” for future use or to protect brands.
+
+**Licensing of themes distributed outside the theme directory**
+
 If you distribute themes, you may only distribute themes that are 100% compatible with GPL.
 Otherwise you can not add themes to the WordPress.org Theme Directory (See explanation).
 
 Example: If you have a Themeforest account and you’re selling themes on it, all those themes need to state on their sales page that they are 100% GPL compatible (Info).
-Multiple Theme Author Accounts
+
+**Multiple Theme Author Accounts**
+
 You can have multiple accounts with the following restrictions:
 You can’t have more than one (1) open ticket in any of the trac reports/queues or under review. That means you can’t have one (1) theme ticket from an account and another one from a secondary account, simultaneously open in any of the queues.
 Failing to respect the above requirement will result in the closing of all tickets and not having the possibility to upload those themes again. Also, a 1 month no upload possibility for each ticket closed. Depending on the severity of the case, you might also end up with a permanent ban on all your accounts.
