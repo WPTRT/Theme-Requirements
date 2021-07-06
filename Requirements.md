@@ -106,14 +106,14 @@ Do not include:
 
 ### 6. Plugins
 
+Themes may only recommend plugins that are hosted on WordPress.org.
+
+Plugins may only be installed by user action, not automatically.
+
 Do not:
 
 - Include zip files or plugins in the theme folder or download plugins automatically
 - Include plugin functionality. If you are not sure if a feature is plugin territory, contact the team and ask first. themes@wordpress.org.
-
-Plugins may only be installed by user action, not automatically.
-
-Themes may only recommend plugins that are hosted on WordPress.org.
 
 ### 7. Naming, spelling and trademarks
 
@@ -138,7 +138,7 @@ Themes can use any language for text, but only use one language.
 
 Prepare your files:
 - Themes must be complete at the time of submission.
-- Remove code not intended for the free version of the theme
+- Remove code not intended for the free version of the theme.
 - Remove directories such as .git, .svn, .hg, and .bzr.
 - Make sure that only one type of line ending is used. If both DOS and UNIX line endings are used, this can cause problems with SVN and your theme or theme update will not be uploaded to the directory.
 - If your theme is based on a starter theme like Underscores, make sure that all files are updated correctly.
