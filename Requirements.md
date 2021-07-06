@@ -204,7 +204,10 @@ Include:
 - [body_class()](https://developer.wordpress.org/reference/functions/body_class/) – (inside the body tag)
 - [wp_footer()](https://developer.wordpress.org/reference/functions/wp_footer/) – (immediately before </body>).
 - [wp_body_open()](https://developer.wordpress.org/reference/functions/wp_body_open/). – (immediately after <body> ).
-- the title tag theme support [add_theme_support( 'title-tag' );](https://developer.wordpress.org/reference/functions/add_theme_support/#title-tag).
+- [post_class()](https://developer.wordpress.org/reference/functions/post_class/)
+- [wp_link_pages()](https://developer.wordpress.org/reference/functions/wp_link_pages/)
+- [add_theme_support( 'title-tag' )](https://developer.wordpress.org/reference/functions/add_theme_support/#title-tag)
+- [add_theme_support( 'automatic-feed-links' )](https://developer.wordpress.org/reference/functions/add_theme_support/)
 
 Call custom template files using get_template_part() or locate_template().
 
