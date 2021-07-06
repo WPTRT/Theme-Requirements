@@ -211,7 +211,7 @@ Include:
 
 Call custom template files using get_template_part() or locate_template().
 
-Display the correct content according to the front page setting (See explanation https://make.wordpress.org/themes/2014/06/28/correct-handling-of-static-front-page-and-custom-blog-posts-index-template/).
+Display the correct content according to the front page setting ([See explanation] (https://make.wordpress.org/themes/2014/06/28/correct-handling-of-static-front-page-and-custom-blog-posts-index-template/) ).
 
 **Options and Settings**
 
@@ -222,6 +222,7 @@ Use edit_theme_options capability for determining user permission to edit option
 **Templates**
 
 If used in the theme, standard template files are required to be called by their respective function.
+
 (example will be placed here inside the details/summary block)
 
 ### 11. Block themes
@@ -239,9 +240,9 @@ Theme names cannot be “reserved” for future use or to protect brands.
 **Licensing of themes distributed outside the theme directory**
 
 If you distribute themes, you may only distribute themes that are 100% compatible with GPL.
-Otherwise you can not add themes to the WordPress.org Theme Directory (See explanation).
+Otherwise you can not add themes to the WordPress.org Theme Directory ([See explanation](https://make.wordpress.org/themes/2015/08/15/themes-should-be-100-gpl/)).
 
-Example: If you have a Themeforest account and you’re selling themes on it, all those themes need to state on their sales page that they are 100% GPL compatible (Info).
+Example: If you have a Themeforest account and you’re selling themes on it, all those themes need to state on their sales page that they are 100% GPL compatible ([Info](https://help.market.envato.com/hc/en-us/articles/202501194-Theme-Plugin-Licensing-Options)).
 
 **Multiple Theme Author Accounts**
 
