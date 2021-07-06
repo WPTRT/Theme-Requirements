@@ -199,6 +199,8 @@ Screenshot
 
 Have a valid DOCTYPE declaration and include language_attributes().
 
+Include the title tag theme support [add_theme_support( 'title-tag' );](https://developer.wordpress.org/reference/functions/add_theme_support/#title-tag).
+
 Call custom template files using get_template_part() or locate_template().
 
 Display the correct content according to the front page setting (See explanation https://make.wordpress.org/themes/2014/06/28/correct-handling-of-static-front-page-and-custom-blog-posts-index-template/).
