@@ -147,13 +147,14 @@ Prepare your files:
 (List of files that are not allowed will be included here in the details/summary block)
 
 **No remote resources are allowed without user consent**
+
 Include all scripts, images, videos and other resources in the theme zip file. The only exception to this requirement is Google Fonts.
 
 Do not:
 -Use CDN or similar services
 -Fetch any files or data from a remote resource, including your own websites, without the user's explicit consent.
 
-This is because remote resources such as scripts, videos and demo content can be updated at any time and can not be reviewed.
+This is because remote resources can be updated at any time and can not be reviewed.
 
 **Main stylesheet**
 
