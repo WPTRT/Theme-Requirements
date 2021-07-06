@@ -154,7 +154,7 @@ Do not:
 -Use CDN or similar services
 -Fetch any files or data from a remote resource, including your own websites, without the user's explicit consent.
 
-This is because remote resources can be updated at any time and can not be reviewed.
+This is because of GDRPR and because remote resources can be updated at any time and as such can not be reviewed.
 
 **Main stylesheet**
 
@@ -200,10 +200,10 @@ Screenshot
 Have a valid DOCTYPE declaration and include language_attributes().
 
 Include:
-- wp_head() – (immediately before ´</head>´ )
-- body_class() – (inside the body tag)
-- wp_footer() – (immediately before ´</body>´).
-- [wp_body_open()](https://developer.wordpress.org/reference/functions/wp_body_open/). – (immediately after ´<body>´ ).
+- [wp_head()](https://developer.wordpress.org/reference/functions/wp_head/) – (immediately before </head> )
+- [body_class()](https://developer.wordpress.org/reference/functions/body_class/) – (inside the body tag)
+- [wp_footer()](https://developer.wordpress.org/reference/functions/wp_footer/) – (immediately before </body>).
+- [wp_body_open()](https://developer.wordpress.org/reference/functions/wp_body_open/). – (immediately after <body> ).
 - the title tag theme support [add_theme_support( 'title-tag' );](https://developer.wordpress.org/reference/functions/add_theme_support/#title-tag).
 
 Call custom template files using get_template_part() or locate_template().
