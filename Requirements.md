@@ -68,7 +68,7 @@ There must not be any PHP or JavaScript errors, warnings, or notices.
 The theme must be secure. The automated tools check for a number of PHP functions and known scripts.
 
 - Validate and/or sanitize untrusted data before entering it into the database
-- Escape all untrusted data before output (See: [Data Validation](https://codex.wordpress.org/Data_Validation)
+- Escape all untrusted data before output (See: [Data Validation](https://codex.wordpress.org/Data_Validation) )
 
 Provide a unique prefix for everything the theme defines in the public namespace, including options, functions, global variables, constants, post meta, wp_enqueue_script/style handle names, add_image_size names, wp_script_add_data keys, slugs/ids for new categories created with register_block_pattern_category etc.
 Menu locations and sidebar IDs are exceptions.
