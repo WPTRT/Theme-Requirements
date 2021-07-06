@@ -29,6 +29,7 @@ Copyright statements on the front end must only display the user’s copyright, 
 ### 2. Privacy
 
 Any tracking and collection of user data must be disabled by default and opt-in only.
+
 Documentation on how any user data is collected, and used, needs to be included in the theme readme.txt file, preferably with a clearly stated privacy policy.
 
 ### 3. Accessibility
@@ -132,11 +133,12 @@ The themes team can decline themes based on the name and can request that the na
 
 All text strings must be translatable using gettext, with the exception of text in HTML template files.
 
-Use the theme slug as the text-domain and add it to style.css. The theme slug is the name of the theme in lower case, with spaces replaced by a hyphen (-) . It is also the folder name for the theme.
+Use the theme slug as the text-domain and add it to style.css.
+The theme slug is the name of the theme in lower case, with spaces replaced by a hyphen (-) . It is also the folder name for the theme.
 
 If the theme uses a framework then no more than 2 unique text domains may be used (like tgmpa, redux-framework, kirki or some other allowed framework)
 
-Themes can use any language for text, but only use one language
+Themes can use any language for text, but only use one language.
 
 ### 10. Files
 
@@ -154,24 +156,20 @@ The only exception to this requirement is Google Fonts.
 
 **Main stylesheet**
 
-The headers in style.css needs to follow the guidelines and requirements for the main stylesheet in the Theme Developer Handbook.
+The headers in style.css needs to follow the guidelines and requirements for the main stylesheet in the [Theme Developer Handbook](https://developer.wordpress.org/themes/basics/main-stylesheet-style-css/).
 
 The following headers are required:
 (example will be shown here in the details/summary block.)
 
-Theme URI is optional. If used, it must be about the theme we’re hosting on WordPress.org. If the URI is a demo site, the content must be about the theme itself and not test data.
-
+Theme URI is optional. If used, it must be about the theme we’re hosting on WordPress.org.
 Using WordPress.org in the Theme URI is reserved for the default themes (Twenty *).
+Author URI is optional. If used, it must be a page or website about the author, author theme shop, or author project/development website.
 
-Author URI is optional. If used, it is required to link to a page or website about the author, author theme shop, or author project/development website.
-
-For a list of available tags see: Theme Tag List. https://make.wordpress.org/themes/handbook/review/required/theme-tags/
+For a list of available tags see: [Theme Tag List](https://make.wordpress.org/themes/handbook/review/required/theme-tags/).
 
 **Readme.txt file**
 
-A readme.txt file is required.
-The file header is required and must not contain empty lines.
-The tested up to field must be included.
+A valid readme.txt file must be included.
 
 readme.txt example
 
