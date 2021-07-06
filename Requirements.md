@@ -89,6 +89,7 @@ Admin notices:
 Do not:
 
 - Place WordPress features behind a paywall
+- Import content to a user’s site
 - Remove, hide, or otherwise block the admin bar from appearing
 - Redirect on theme activation or modify the activation process
 - Filter user_contactmethods or allowed mime types
@@ -115,13 +116,7 @@ Plugins may only be installed by user action, not automatically.
 
 Themes may only recommend plugins that are hosted on WordPress.org.
 
-### 7. Importing or downloading
-
-- Themes are not allowed to import content to a user’s site
-- Themes are not allowed to link directly to an XML, JSON, ZIP, or other files for direct download or import
-- Themes are not allowed to bundle demo content via an XML, JSON, ZIP, or other file formats.
-
-### 8. Naming, spelling and trademarks
+### 7. Naming, spelling and trademarks
 
 The themes team can decline themes based on the name and can request that the name be changed, if they deem the name inappropriate or too similar to the name of an existing theme or brand.
 
@@ -129,7 +124,7 @@ The themes team can decline themes based on the name and can request that the na
 - Spell “WordPress” correctly in all public-facing text: all one word, with both an uppercase W and P
 - No violation of trademarks.
 
-### 9. Language & internationalization
+### 8. Language & internationalization
 
 All text strings must be translatable using gettext, with the exception of text in HTML template files.
 
@@ -140,7 +135,7 @@ If the theme uses a framework then no more than 2 unique text domains may be use
 
 Themes can use any language for text, but only use one language.
 
-### 10. Files
+### 9. Files
 
 Prepare your files:
 - Themes must be complete at the time of submission.
@@ -151,8 +146,14 @@ Prepare your files:
 
 (List of files that are not allowed will be included here in the details/summary block)
 
-No remote resources are allowed. Include all scripts, images, videos and other resources rather than hot-linking.
-The only exception to this requirement is Google Fonts.
+**No remote resources are allowed without user consent**
+Include all scripts, images, videos and other resources in the theme zip file. The only exception to this requirement is Google Fonts.
+
+Do not:
+-Use CDN or similar services
+-Fetch any files or data from a remote resource, including your own websites, without the user's explicit consent.
+
+This is because remote resources such as scripts, videos and demo content can be updated at any time and can not be reviewed.
 
 **Main stylesheet**
 
@@ -193,7 +194,7 @@ Screenshot
 - The screenshot must not be bigger than 1200 x 900px
 - The ratio of width to height needs to be 4:3
 
-### 11. Classic themes
+### 10. Classic themes
 
 Have a valid DOCTYPE declaration and include language_attributes().
 
@@ -214,13 +215,13 @@ Use edit_theme_options capability for determining user permission to edit option
 If used in the theme, standard template files are required to be called by their respective function.
 (example will be placed here inside the details/summary block)
 
-### 12. Block themes
+### 11. Block themes
 
 Include required files: Index.php, style.css, readme.txt, theme.json, and index.html inside a folder called block-templates.
 
 Block templates must be complete.
 
-### 13. Theme author and theme upload restrictions
+### 12. Theme author and theme upload restrictions
 
 Only submit one new theme at the time. You can submit unlimited updates for your existing themes that are in the theme directory.
 
@@ -236,7 +237,7 @@ You can’t have more than one (1) open ticket in any of the trac reports/queues
 Failing to respect the above requirement will result in the closing of all tickets and not having the possibility to upload those themes again. Also, a 1 month no upload possibility for each ticket closed. Depending on the severity of the case, you might also end up with a permanent ban on all your accounts.
 To avoid penalties, the team requests that you disclose all your accounts by emailing us at themes[at]wordpress.org.
 
-### 14. Selling, credits, and links
+### 13. Selling, credits, and links
 
 Themes can include one single front facing credit link, which is restricted to the Theme URI or Author URI defined in style.css
 Themes can also have an additional footer credit link pointing to WordPress.org
