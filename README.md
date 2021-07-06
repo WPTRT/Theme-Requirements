@@ -1,5 +1,5 @@
 :warning: 
-# The content in this repository is not up to date!
+# The content in this repository branch is not up to date!
 
 Background information:
 https://make.wordpress.org/themes/2021/02/24/meeting-notes-matt-josepha-and-theme-review-team/
