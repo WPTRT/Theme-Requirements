@@ -14,6 +14,7 @@ https://make.wordpress.org/themes/handbook/review/required/
 ### 1. Licensing & copyright
 
 **Themes must be compatible with the GNU General Public License**
+
 Although any GPL-compatible license is acceptable, using the same license as WordPress — “GPLv2 or later” — is strongly recommended. All code, data, and images — anything in the theme zip file — must comply with the GPL or a GPL-Compatible license.
 Included third-party libraries, code, images, or otherwise, must be compatible.
 For a specific list of compatible licenses, please read the GPL-Compatible license list on gnu.org https://www.gnu.org/licenses/license-list.en.html#GPLCompatibleLicenses.
@@ -32,7 +33,8 @@ Documentation on how any user data is collected, and used, needs to be included 
 
 ### 3. Accessibility
 
-**Skip links** 
+**Skip links**
+
 Themes must include a mechanism that enables users to navigate directly to content or navigation on entering any given page. 
 Note that in block themes, skip links are added automatically to the `<main>` element.
 
@@ -46,11 +48,13 @@ A minimally conforming skip link must:
 Note that this only applies if there is something to skip past, such as a menu or larger header section or secondary widget area before the main content.
 
 **Keyboard navigation**
+
 Theme authors must provide visual keyboard focus highlighting in navigation menus and for form fields, submit buttons and text links.
 All controls and links must be reachable using the keyboard.
 All controls usable with the mouse must be usable with the keyboard, regardless of device and screen size. Including but not limited to responsive versions for small screens, mobile and other touch screen devices. Further reading.
 
 **Links within content and comments must be underlined**
+
 When links appear within a larger body of block-level content, they must be clearly distinguishable from surrounding content (Post content, comment content, text widgets, custom options with large blocks of texts).
 Links in navigation-like contexts (e.g. menus, lists of upcoming posts in widgets, grouped post meta data) do not need to be specifically distinguished from surrounding content.
 The underline is the only accepted method of indicating links within content. Bold, italicized, or color-differentiated text is ambiguous and will not pass. 
@@ -58,6 +62,7 @@ The underline is the only accepted method of indicating links within content. Bo
 If the theme has the tag ‘accessibility-ready’ then it needs to meet [these additional requirements.](https://make.wordpress.org/themes/handbook/review/accessibility/)
 
 ### 4. Code
+
 There must not be any PHP or JavaScript errors, warnings, or notices.
 
 The theme must be secure. The automated tools check for a number of PHP functions and known scripts.
@@ -71,6 +76,7 @@ Menu locations and sidebar IDs are exceptions.
 Do not use deprecated functions or constants. https://codex.wordpress.org/Category:Deprecated_Functions
 
 ### 5. Functionality and Features
+
 Manipulating the preview on WordPress.org is not allowed and can result in suspension or your user account being terminated.
 
 Admin notices:
@@ -103,18 +109,18 @@ Do not include:
 
 Do not:
 
-Include zip files or plugins in the theme folder or download plugins automatically
+- Include zip files or plugins in the theme folder or download plugins automatically
+- Include plugin functionality. If you are not sure if a feature is plugin territory, contact the team and ask first. themes@wordpress.org.
 
-Include plugin functionality. If you are not sure if a feature is plugin territory, contact the team and ask first. themes@wordpress.org.
+Plugins may only be installed by user action, not automatically.
 
-Plugins may only be installed by user action, not automatically
-Themes may only recommend plugins that are hosted on WordPress.org
+Themes may only recommend plugins that are hosted on WordPress.org.
 
 ### 7. Importing or downloading
 
-Themes are not allowed to import content to a user’s site
-Themes are not allowed to link directly to an XML, JSON, ZIP, or other files for direct download or import
-Themes are not allowed to bundle demo content via an XML, JSON, ZIP, or other files
+- Themes are not allowed to import content to a user’s site
+- Themes are not allowed to link directly to an XML, JSON, ZIP, or other files for direct download or import
+- Themes are not allowed to bundle demo content via an XML, JSON, ZIP, or other file formats.
 
 ### 8. Naming, spelling and trademarks
 
@@ -170,6 +176,7 @@ The file header is required and must not contain empty lines.
 The tested up to field must be included.
 
 readme.txt example
+
 (example will be shown here in the details/summary block.)
 
 **Stylesheets and scripts**
