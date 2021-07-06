@@ -102,6 +102,7 @@ Do not include:
 - Functionality that is not related to design and presentation
 
  Examples of non presentational hooks
+ 
  (examples will be placed here inside the details/summary block)
 
 ### 6. Plugins
