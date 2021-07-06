@@ -211,7 +211,7 @@ Include:
 
 Call custom template files using get_template_part() or locate_template().
 
-Display the correct content according to the front page setting ([See explanation] (https://make.wordpress.org/themes/2014/06/28/correct-handling-of-static-front-page-and-custom-blog-posts-index-template/) ).
+Display the correct content according to the front page setting ([See explanation](https://make.wordpress.org/themes/2014/06/28/correct-handling-of-static-front-page-and-custom-blog-posts-index-template/) ).
 
 **Options and Settings**
 
