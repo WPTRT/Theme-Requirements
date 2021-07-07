@@ -151,10 +151,12 @@ Prepare your files:
 Include all scripts, images, videos and other resources in the theme zip file. The only exception to this requirement is Google Fonts.
 
 Do not:
+
 -Use CDN or similar services
+
 -Fetch any files or data from a remote resource, including your own websites, without the user's explicit consent.
 
-This is because of GDRPR and because remote resources can not be reviewed.
+This is because of GDRPR requirements and because remote resources can not be reviewed.
 
 **Main stylesheet**
 
