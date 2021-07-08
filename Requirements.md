@@ -238,7 +238,7 @@ If used in the theme, standard template files are required to be called by their
 
 Include required files: Index.php, style.css, readme.txt, theme.json, and index.html inside a folder called block-templates.
 
-Block templates must be complete.
+Block templates must be complete and blocks may not have missing or incorrect closing tags.
  
 ### 12. Selling, credits, and links
 
