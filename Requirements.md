@@ -15,16 +15,17 @@ https://make.wordpress.org/themes/handbook/review/required/
 
 **Themes must be compatible with the GNU General Public License**
 
-Although any GPL-compatible license is acceptable, using the same license as WordPress — “GPLv2 or later” — is strongly recommended. All code, data, and images — anything in the theme zip file — must comply with the GPL or a GPL-Compatible license.
+Although any GPL-compatible license is acceptable, using the same license as WordPress — “GPLv2 or later” — is strongly recommended.
+
+All code, data, and images — anything in the theme zip file — must comply with the GPL or a GPL-Compatible license.
 Included third-party libraries, code, images, or otherwise, must be compatible.
+
 For a specific list of compatible licenses, please read the GPL-Compatible license list on gnu.org https://www.gnu.org/licenses/license-list.en.html#GPLCompatibleLicenses.
 
-Include copyright information for the theme itself.
-Include license, copyright information (unless public domain), and source for all resources included, such as fonts or images. Provide a list of all resources in one file.
-
-All code and design must be your own or legally yours. Cloning of designs is not acceptable.
-
-Copyright statements on the front end must only display the user’s copyright, not the theme author’s copyright.
+-Include copyright information for the theme itself.
+-Include license, copyright information (unless public domain), and source for all resources included, such as fonts or images. Provide a list of all resources in one file.
+-All code and design must be your own or legally yours. Cloning of designs is not acceptable.
+-Copyright statements on the front end must only display the user’s copyright, not the theme author’s copyright.
 
 ### 2. Privacy
 
@@ -37,16 +38,16 @@ Documentation on how any user data is collected, and used, needs to be included 
 **Skip links**
 
 Themes must include a mechanism that enables users to navigate directly to content or navigation on entering any given page. 
-Note that in block themes, skip links are added automatically to the `<main>` element.
-
 These links may be positioned off-screen initially but must be available to screen reader users and must be visible on focus for sighted keyboard navigators.
+
 A minimally conforming skip link must:
 
 - Be the first focusable element perceived by a user via a screen reader or keyboard navigation
 - Be visible when keyboard focus moves to the link
 - Move focus to the main content area of the page when activated
 
-Note that this only applies if there is something to skip past, such as a menu or larger header section or secondary widget area before the main content.
+**Notes:** This only applies if there is something to skip past, such as a menu or larger header section or secondary widget area before the main content.
+In block themes, skip links are added automatically to the `<main>` element.
 
 **Keyboard navigation**
 
@@ -215,7 +216,7 @@ Include:
 - [add_theme_support( 'title-tag' )](https://developer.wordpress.org/reference/functions/add_theme_support/#title-tag)
 - [add_theme_support( 'automatic-feed-links' )](https://developer.wordpress.org/reference/functions/add_theme_support/)
 
-Call custom template files using get_template_part() or locate_template().
+Call custom template files using [get_template_part()](https://developer.wordpress.org/reference/functions/get_template_part/) or [locate_template()](https://developer.wordpress.org/reference/functions/locate_template/).
 
 Display the correct content according to the front page setting ([See explanation](https://make.wordpress.org/themes/2014/06/28/correct-handling-of-static-front-page-and-custom-blog-posts-index-template/) ).
 
@@ -236,8 +237,19 @@ If used in the theme, standard template files are required to be called by their
 Include required files: Index.php, style.css, readme.txt, theme.json, and index.html inside a folder called block-templates.
 
 Block templates must be complete.
+ 
+### 12. Selling, credits, and links
 
-### 12. Theme author and theme upload restrictions
+Themes can include one single front facing credit link, which is restricted to the Theme URI or Author URI defined in style.css
+Themes can also have an additional footer credit link pointing to WordPress.org
+
+Your site needs to state explicitly that the products you’re selling/distributing (free and paid) are GPL compatible. It needs to be in an easy-to-find place for visitors.
+
+Themes must not display “obtrusive” upselling
+Themes must not display upselling on the front
+Themes are not allowed to have affiliate URLs or links
+
+### 13. Theme author and theme upload restrictions
 
 Only submit one new theme at the time. You can submit unlimited updates for your existing themes that are in the theme directory.
 
@@ -257,13 +269,4 @@ You can’t have more than one (1) open ticket in any of the trac reports/queues
 Failing to respect the above requirement will result in the closing of all tickets and not having the possibility to upload those themes again. Also, a 1 month no upload possibility for each ticket closed. Depending on the severity of the case, you might also end up with a permanent ban on all your accounts.
 To avoid penalties, the team requests that you disclose all your accounts by emailing us at themes[at]wordpress.org.
 
-### 13. Selling, credits, and links
 
-Themes can include one single front facing credit link, which is restricted to the Theme URI or Author URI defined in style.css
-Themes can also have an additional footer credit link pointing to WordPress.org
-
-Your site needs to state explicitly that the products you’re selling/distributing (free and paid) are GPL compatible. It needs to be in an easy-to-find place for visitors.
-
-Themes must not display “obtrusive” upselling
-Themes must not display upselling on the front
-Themes are not allowed to have affiliate URLs or links
