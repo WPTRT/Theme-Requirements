@@ -242,14 +242,12 @@ Block templates must be complete.
  
 ### 12. Selling, credits, and links
 
-Themes can include one single front facing credit link, which is restricted to the Theme URI or Author URI defined in style.css
-Themes can also have an additional footer credit link pointing to WordPress.org
+Themes can include one single front-facing credit link, which is restricted to the Theme URI or Author URI defined in style.css
+Themes can also have an additional front-facing credit link pointing to WordPress.org
 
-Your site needs to state explicitly that the products you’re selling/distributing (free and paid) are GPL compatible. It needs to be in an easy-to-find place for visitors.
-
-Themes must not display “obtrusive” upselling
-Themes must not display upselling on the front
-Themes are not allowed to have affiliate URLs or links
+-Themes must not display “obtrusive” upselling
+-Themes must not display upselling on the front
+-Themes are not allowed to have affiliate URLs or links
 
 ### 13. Theme author and theme upload restrictions
 
@@ -270,5 +268,3 @@ You can have multiple accounts with the following restrictions:
 You can’t have more than one (1) open ticket in any of the trac reports/queues or under review. That means you can’t have one (1) theme ticket from an account and another one from a secondary account, simultaneously open in any of the queues.
 Failing to respect the above requirement will result in the closing of all tickets and not having the possibility to upload those themes again. Also, a 1 month no upload possibility for each ticket closed. Depending on the severity of the case, you might also end up with a permanent ban on all your accounts.
 To avoid penalties, the team requests that you disclose all your accounts by emailing us at themes[at]wordpress.org.
-
-
