@@ -92,13 +92,15 @@ Do not:
 - Place WordPress features behind a paywall
 - Remove, hide, or otherwise block the admin bar from appearing
 - Redirect on theme activation or modify the activation process
-- Filter user_contactmethods or allowed mime types
 - Remove non presentational hooks
 
 Do not include:
 
 - Custom post types
 - Custom blocks
+- Custom roles
+- Custom user contact methods
+- Custom mime types 
 - Shortcodes
 - Functionality that is not related to design and presentation
 
